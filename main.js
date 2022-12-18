@@ -49,3 +49,14 @@ function reminder(){
    return num %= 5
 }
 console.log(reminder());
+
+Example:"var fruits = ['Apple', 'Banana', 'Orange']"
+problem:"Find the index of ‘Banana’ and replace ‘Banana’ with ‘Mango’."
+problem:"Remove ‘Orange’ and add ‘Watermelon’."
+
+let fruits = ['Apple', 'Banana', 'Orange']
+console.log(fruits.indexOf("Banana"));
+fruits[1]= "Mango"
+fruits.pop()
+fruits.push("watermelon")
+console.log(fruits);
