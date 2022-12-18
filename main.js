@@ -46,6 +46,6 @@ output:"4"
 
 function reminder(){
    let num = 119;
-   return num /= 5
+   return num %= 5
 }
 console.log(reminder());
