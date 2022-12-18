@@ -39,3 +39,13 @@ function concatinate(){
     return first +" "+second
 }
 console.log(concatinate());
+
+problem:"Sarah’s mother is teaching her mathematics. She gave Sarah a number and asked her what the remainder would be if she divided the number by 5. Help Sarah write the program."
+input:"119"
+output:"4"
+
+function reminder(){
+   let num = 119;
+   return num /= 5
+}
+console.log(reminder());
