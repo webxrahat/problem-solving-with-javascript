@@ -28,3 +28,14 @@ function average(){
     return parseFloat(above.toFixed(2))
 }
 console.log(average());
+
+problem:"John’s teacher gave him two variables. Each variable contains a string. John’s teacher asked him to combine these two strings and print them in one line. Help John write the program."
+Input:"I am going to be" + "an awesome web developer"
+Output:"I am going to be an awesome web developer"
+
+function concatinate(){
+    let first = "I am going to be" 
+    let second = "an awesome web developer"
+    return first +" "+second
+}
+console.log(concatinate());
